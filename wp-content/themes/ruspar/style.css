@@ -1,0 +1,100 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section{display:block;}
+body{line-height:1;min-width:1024px;}
+ol, ul{list-style:none;}
+blockquote, q{quotes:none;}
+blockquote:before, blockquote:after,
+q:before, q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+body{background-color:#f9f9f9;font-family:"Helvetica", "Helvetica Neue", Arial, sans-serif;letter-spacing:0.01rem;font-size:15px;line-height:1.5;}
+.top{margin:0px auto;max-width:1024px;margin-top:10px;}
+.logo{float:left;}
+.tell-head{float:right;font-size:25px;color:#845f22;font-weight:600;}
+.meny{clear:both;font-size:18px;margin-bottom:15px;padding-top:15px;}
+.meny li{display:inline;padding:15px 20px;}
+.meny a{color:#3d210c;text-decoration:none;}
+.meny li:hover{background-color:#fabe08;}
+.box-solid{background-image:url(images/fon.jpg);background-repeat:repeat-x;background-color:#f9f9f9;background-position:top center;height:600px;}
+.box-solid-text{margin:0px auto;max-width:1024px;}
+.box-solid-text h2{display:inline-block;background:rgba(77, 85, 211, 0.7);color:#fff;margin:24px 0px 0px 35px;font-size:36px;}
+.body{margin:0px auto;max-width:1024px;}
+.title{font-family:'Ruslan Display';height:50px;background:-webkit-linear-gradient(top, #fabe08, #efd274);color:#222222;text-align:center;font-size:32px;padding-top:13px;margin-top:10px;}
+.blocks{clear:both;margin:0px auto;max-width:1024px;}
+.uslugi{float:left;background-color:#fff;margin:15px 2px;position:relative;}
+.uslugi-title{margin-left:10px;margin-top:2px;height:28px;}
+.slider{z-index:9;width:500px;overflow:hidden;margin:0 0 7px;position:relative;float:left;}
+.slider2{float:right;}
+.slider2 img{width:100%;}
+.slider h2, .slider_h2{font-size:23px;/*font-family:'Ruslan Display', cursive;*/text-align:center;/*height:115px;*/}
+.slider ul,
+.slider li{padding:0;margin:0;list-style-type:none;}
+.slider ul{width:9999px;}
+.slider ul li{list-style-type:none;float:left;width:500px;height:375px;}
+.slider .nav{position:absolute;left:15px;bottom:12px;}
+.slider .nav span{opacity:0.9;background:#fff;margin:0 8px 0 0;width:16px;height:16px;border-radius:8px;cursor:pointer;overflow:hidden;display:block;float:left;box-shadow:0 1px 2px #000;}
+.slider .nav span.on{background:#2e9419;}
+h3{font-family:'Ruslan Display', cursive;}
+.contacts{float:left;padding-top:70px;padding-right:25px;}
+.contacts h4{font-size:18px;}
+.contacts-about{text-align:center;padding:25px 0px;}
+.contacts2{float:right;}
+.sliderotel{width:337px;height:200px;position:relative;z-index:1;}
+.otel-title{margin-left:10px;margin-top:2px;height:28px;padding-bottom:220px;font-size:18px;}
+.otel-title a{text-decoration:none;color:#000;}
+.otel-title a:hover{color:blue;}
+.otel-price{position:relative;float:right;margin-top:-85px;margin-right:10px;background:#48bf0d;color:#fff;z-index:2;}
+.otel-price span{font-size:30px;}
+.reviewsprofile{float:left;width:50%;height:170px;padding-top:15px;}
+.reviews-img{float:left;width:161px;padding-left:10px;}
+.reviews-left{float:left;width:330px;padding-left:10px;padding-top:10px;text-align:justify;}
+.single{margin:0px auto;max-width:1024px;}
+.footer{margin:0px auto;max-width:1024px;font-size:14px;height:65px;}
+.autor{float:left;width:50%;padding-top:22px;}
+.aur{float:right;padding-top:22px;}
+.shares .uslugi{height:300px;}
+.sandwich{display:none;margin-bottom:20px;}
+.sandwich a{display:inline-block;float:right;}
+.sandwich a span{display:block;background:#000;height:2px;width:18px;margin-bottom:3px;}
+@media only screen and (min-width:1025px){.meny-item{display: block !important;}}
+@media only screen and (max-width:1024px){.footer{text-align:center;}
+.autor{float:none;margin:auto;}
+.contacts{padding-left:15px;padding-right:15px;}
+body{min-width:auto;}
+.contacts2{float:none;display:flex;flex-flow:row wrap;justify-content:center;}
+.contacts2 img{padding:0px 2px 2px 2px;}
+.contacts-about{padding-left:15px;padding-right:15px;}
+.otel-title{padding-bottom:5px;}
+.slider_h2{height:auto;}
+.slider{float:none;margin:0 auto 20px;}
+.uslugi-block{display:flex;flex-flow:row wrap;justify-content:center;}
+.reviews-block{display:none;flex-flow:row wrap;justify-content:center;}
+.reviewsprofile{width:auto;}
+.box-solid-text{text-align:center;}
+.title{height:auto;}
+.box-solid-text h2{margin:24px 0px 0px;}
+.top{padding-left:15px;padding-right:15px;}
+.sandwich{display:block;margin-bottom:20px;}
+.meny{position:relative;}
+.meny ul{display:flex;flex-flow:column nowrap;align-items:center;}
+.meny .meny-item{display:none;position:absolute;top:35px;left:0;width:100%;background:#f9f9f9;}
+}
+@media only screen and (max-width:519px){.reviewsprofile{height:auto;float:none;padding-left:15px;padding-right:15px;}
+.reviews-img{float:none;width:100%;text-align:center;}
+.reviews-left{float:none;width:100%;}
+}
+@media only screen and (max-width:500px){.slider_wrapper{width:100vw;}
+.slider_wrapper .slider{width:100%;}
+}
