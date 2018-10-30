@@ -27,7 +27,8 @@
         <!--Шапка -->
         <div class="top">
             <div class="logo">
-                <a href="/"><img id="_image2" itemprop="image" src="http://ruspar.pl.ua/wp-content/themes/ruspar/images/logo.png" alt="Славянский Клуб"></a>
+                <!-- <a href="/"><img id="_image2" itemprop="image" src="http://ruspar.pl.ua/wp-content/themes/ruspar/images/logo.png" alt="Славянский Клуб"></a> -->
+                <?php the_custom_logo() ?>
             </div>
             <div class="tell-head">
                 (099)194-18-11<br>

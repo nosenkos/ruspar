@@ -116,4 +116,8 @@ if ( function_exists('register_sidebar') ) {
 
 add_theme_support( 'post-thumbnails' );
 
+// Логотип
+
+add_theme_support( 'custom-logo' );
+
 ?>
